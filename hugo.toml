@@ -1,0 +1,42 @@
+baseURL = 'https://seclists.dev'
+languageCode = 'en-us'
+title = 'SecLists Documentation'
+theme = 'hextra'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Documentation"
+    pageRef = "/docs"
+    weight = 10
+  [[menu.main]]
+    name = "Installation"
+    pageRef = "/docs/installation"
+    weight = 20
+  [[menu.main]]
+    name = "Lists"
+    pageRef = "/docs/lists"
+    weight = 30
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/danielmiessler/SecLists"
+    weight = 40
+
+[params]
+  description = "SecLists - The security tester's companion. Collection of multiple types of lists used during security assessments"
+  displayUpdatedDate = true
+  DateFormat = "January 2, 2006"
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = false
+
+  [params.editPage]
+    enable = false
