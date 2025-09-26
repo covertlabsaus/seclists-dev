@@ -2,6 +2,10 @@ baseURL = 'https://seclists.dev'
 languageCode = 'en-us'
 title = 'SecLists Documentation'
 theme = 'hextra'
+enableRobotsTXT = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'SITEMAP']
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -20,10 +24,18 @@ unsafe = true
     pageRef = "/docs/lists"
     weight = 30
   [[menu.main]]
+    name = "Contributing"
+    pageRef = "/docs/contributing"
+    weight = 35
+  [[menu.main]]
+    name = "Resources"
+    pageRef = "/docs/resources"
+    weight = 38
+  [[menu.main]]
     identifier = "github"
     name = "GitHub"
     url = "https://github.com/danielmiessler/SecLists"
-    weight = 40
+    weight = 60
 
 [params]
   description = "SecLists - The security tester's companion. Collection of multiple types of lists used during security assessments"

@@ -1,7 +1,7 @@
 +++
 date = '2025-09-26T20:58:20+10:00'
 draft = false
-title = 'SecLists - The Security Tester\'s Companion'
+title = "SecLists - The Security Tester's Companion"
 +++
 
 # SecLists 🛡️
@@ -10,6 +10,10 @@ SecLists is the security tester's companion. It's a collection of multiple types
 
 {{< callout type="info" >}}
 Created by Daniel Miessler, Jason Haddix, Ignacio Portal, and g0tmi1k with contributions from the community.
+{{< /callout >}}
+
+{{< callout type="info" >}}
+Supported by the community and partners such as [Warp](https://go.warp.dev/seclists), an AI-enabled terminal for macOS, Linux, and Windows.
 {{< /callout >}}
 
 ## 🎯 What's Inside
@@ -111,4 +115,5 @@ Contributions are welcome! Please read our contributing guidelines and submit pu
 - [GitHub Repository](https://github.com/danielmiessler/SecLists)
 - [Installation Guide](/docs/installation)
 - [Wordlist Categories](/docs/lists)
-- [Contributing Guide](https://github.com/danielmiessler/SecLists/blob/master/CONTRIBUTING.md)
+- [Contributing Guide](/docs/contributing)
+- [Resources & tooling](/docs/resources)
